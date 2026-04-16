@@ -28,7 +28,7 @@ def draw():
     for brick in all_briks:
         brick.draw()
 
-    player.draw() # je le dessine après sinon il sera caché par ce que je dessine ensuite.
+    player.draw() # je le dessine après sinon il sera caché par ce que je dessine ensuite. Bah oui logique enfaing
     ball.draw()
 
 def update():
