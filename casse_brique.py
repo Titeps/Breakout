@@ -6,7 +6,7 @@ HEIGHT = 600
 
 all_briks = []
 
-
+# adding a random comment to test my GitHUB
 for x in range(0, 800 , 100):
     for y in range(0, 7 * 30 , 30):
         brick = Actor("brick",anchor = ["left","top"])
