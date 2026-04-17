@@ -24,7 +24,7 @@ ball_speed = [3,-3]
 
 def draw():
     screen.clear()
-    screen.fill("violetred3")
+    screen.fill("violet")
     for brick in all_briks:
         brick.draw()
 
